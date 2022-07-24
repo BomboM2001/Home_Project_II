@@ -145,6 +145,7 @@ namespace Batman_JR0LDJ
                 a = Console.ReadLine();
                 if (a == "Add")
                 {
+                    Console.WriteLine("Please type your new tool:");
                     Tools newTool = new Tools();
                     newTool.NameItem = Console.ReadLine();
                     newTool.Cost = int.Parse(Console.ReadLine());
